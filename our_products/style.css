@@ -1,0 +1,437 @@
+/* resets  */
+::-webkit-input-placeholder {
+    color: #e4e6ef
+}
+
+.container, .content{
+    max-width: 1057px;
+}
+
+.container1 {
+    background-image: url('../img/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.content {
+    margin: 0px auto;
+}
+
+a, h1, h2, h3, h4, h5, h6, p, span, textarea, li, button {
+    font-family: 'Inter', sans-serif;
+}
+
+li .active {
+    color: #1DA737 !important;
+}
+
+/* body  */
+.body button, footer button, .job button {
+    background-color:#1DA737 !important;
+    border: 0px !important;
+    padding: 18px 36px;
+    border-radius: 10px;
+}
+
+.body button:hover {
+    background-color: #1DA737 !important;
+}
+
+/* contact  */
+.contact {
+    padding: 11px 0px
+}
+
+.contact span {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.contact i {
+    color: #1DA737;
+    font-size: 10.25px
+}
+
+.contact .social-media i {
+    float: right;
+    padding-top: 10px;
+}
+
+.address span {
+    padding-right: 17.5px;
+}
+
+.address i{
+    padding-right: 10.25px;
+}
+
+.social-media {
+    text-align: right;
+}
+
+.social-media i {
+    padding-left: 21.38px;
+}
+
+/* navigation  */
+nav {
+    padding: 51px 0px !important
+}
+
+.sub-nav {
+    padding: 0px !important;
+}
+
+nav .container-fluid {
+    padding: 0px !important
+}
+
+.navbar-brand img {
+    width: 100px
+}
+
+.navbar h1 a {
+    font-style: Bold !important;
+    font-size: 35px !important;
+    line-height: 42px !important;
+}
+
+.navbar-nav a {
+    margin-left: 50px;
+}
+
+.nav-item a, nav a {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: black !important;
+}
+
+nav .active {
+    color: #1DA737 !important;
+}
+
+.dropdown-menu {
+    border-radius: 10px;
+    padding: 20px;
+    width: 236px
+}
+
+.dropdown li {
+    padding: 10px 0px;
+    border-bottom: 1px solid #e4e6ef;
+}
+
+.dropdown li a {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 200%;
+    margin: 0px
+}
+
+.navbar-toggler {
+    background: #1DA737;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: white;
+}
+
+.navbar-toggler span + span {
+    width: 18px;
+    margin: 4px 0 0 4px;
+    width: 22px;
+}
+
+.navbar-toggler span + span + span {
+    width: 10px;
+    margin-left: 4px;
+}
+
+/* subnav  */
+
+/* credit  */
+.credit {
+    margin: 80px 0px
+}
+
+.credit img {
+    margin-bottom: 30px;
+}
+
+.credit h1 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px
+}
+
+.credit p {
+    font-size: 15px;
+    line-height: 30px
+}
+
+.credit i {
+    color: #F0C603;
+    padding-right: 14px;
+}
+
+.credit ul {
+    border: 1px solid #e4e6ef;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.credit li {
+    border-bottom: 1px solid #e4e6ef;
+    display: block;
+    width: 100%;
+    padding: .25rem 1rem;
+}
+
+.credit li a {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 200%;
+    color: black;
+}
+
+/* footer  */
+footer {
+    background-color: black;
+    padding: 66px 0px 78px 0px
+}
+
+footer p{
+    color: white
+}
+
+footer img{
+    margin-bottom: 35px;
+}
+
+footer .left p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 30px;
+}
+
+footer form p {
+    margin-bottom: 10px !important;
+}
+
+footer input {
+    width: 295px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #CCCFDF;
+    background-color: black;
+    outline: none;
+}
+
+footer ::-webkit-input-placeholder{
+    color: white
+}
+
+footer button {
+    height: 50px;
+    margin: 0px 7px;
+    border-radius: 10px !important;
+}
+
+footer i {
+    color: #1DA737;
+    font-size: 18px;
+}
+
+.right .row {
+    margin-bottom: 20px;
+}
+
+.right h4 {
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.right p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+}
+
+hr {
+    border: 1px solid #9A9FBF;
+    margin-bottom: 60px;
+}
+
+.buttom a {
+    text-decoration: none;
+    padding-left: 16px;
+    Font-size: 15px;
+    Line-height: 100%;
+    color: white
+}
+
+.content i {
+    padding-left: 37px;
+}
+
+.content .up {
+    padding-left: 60px;
+    color: white
+}
+
+.right i {
+    padding-left: 0px;
+}
+
+.social-media span {
+    float: right
+}
+
+
+/* media queries */
+@media (min-width: 768px) and (max-width:989px){
+    /* navbar  */
+    .navbar-brand img {
+        width: 75px;
+    }
+}
+
+@media (min-width: 386px) and (max-width: 768px) {
+    /* contact  */
+    .social-media {
+        text-align: left;
+    }
+
+    .social-media i {
+        padding: 18px 21.38px 0px 0px;
+    }
+
+    .contact .social-media i {
+        padding-top: 35px;
+    }
+
+    /* navbar  */
+    .navbar-brand img {
+        width: 65px;
+    }
+
+    /* about  */
+    .about{ 
+        margin-top: 80px;
+    }
+
+    .banner button {
+        margin: 25px auto;
+    }
+
+    .about img{
+        margin-top: 30px
+    }
+
+    /* statement  */
+    .statement img {
+        display: none;
+    }
+
+    /* job  */
+    .job input {
+        margin-bottom: 20px;
+    }
+
+    /* footer  */
+    footer input {
+        margin-bottom: 20px;
+    }
+    footer .right {
+        margin-top: 30px;
+    }
+
+    .right .row {
+        margin-bottom: 0px;
+    }
+
+    hr {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 385px) {
+    /* contact  */
+    .social-media {
+        text-align: left;
+    }
+
+    .social-media i {
+        padding: 18px 21.38px 0px 0px;
+    }
+
+    .contact .social-media i {
+        padding-top: 35px;
+    }
+
+    /* navbar  */
+    .navbar-brand img {
+        width: 57px;
+    }
+
+    .navbar h1 a {
+        font-size: 31px !important;
+    }
+
+    /* about  */
+    .about{ 
+        margin-top: 80px;
+    }
+
+    .banner button {
+        margin: 25px auto;
+    }
+
+    .about img{
+        margin-top: 30px
+    }
+
+    .form > div {
+        margin-bottom: 20px;
+    }
+
+    /* statement  */
+    .statement img {
+        display: none;
+    }
+
+    /* job  */
+    .job input {
+        margin-bottom: 20px;
+    }
+
+    /* footer  */
+    footer input {
+        margin-bottom: 20px;
+    }
+    footer .right {
+        margin-top: 30px;
+    }
+
+    .right .row {
+        margin-bottom: 0px;
+    }
+
+    hr {
+        margin-bottom: 20px;
+    }
+}

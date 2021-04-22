@@ -1,0 +1,593 @@
+::-webkit-input-placeholder {
+    color: #e4e6ef
+}
+
+.container, .content{
+    max-width: 1057px;
+}
+
+.container1 {
+    background-image: url('img/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.content {
+    margin: 0px auto;
+}
+
+a, h1, h2, h3, h4, h5, h6, p, span, textarea, li, button {
+    font-family: 'Inter', sans-serif;
+}
+
+li .active {
+    color: #1DA737 !important;
+}
+
+/* body  */
+.body button, .product button, .message button, footer button {
+    background-color:#1DA737 !important;
+    border: 0px !important;
+    padding: 18px 36px;
+    border-radius: 10px;
+}
+
+.body button:hover {
+    background-color: #1DA737 !important;
+}
+
+/* contact  */
+.contact {
+    padding: 11px 0px
+}
+
+.contact span {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.contact i {
+    color: #1DA737;
+    font-size: 10.25px
+}
+
+.contact .social-media i {
+    float: right;
+    padding-top: 10px;
+}
+
+.address span {
+    padding-right: 17.5px;
+}
+
+.address i{
+    padding-right: 10.25px;
+}
+
+.social-media {
+    text-align: right;
+}
+
+.social-media i {
+    padding-left: 21.38px;
+}
+
+/* navigation  */
+nav {
+    padding: 51px 0px !important
+}
+
+nav .container-fluid {
+    padding: 0px !important
+}
+
+.navbar-brand img {
+    width: 100px
+}
+
+.nav-item{
+    margin-left: 50px;
+}
+
+.nav-item a {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: black !important;
+}
+
+.nav-item .active {
+    color: #1DA737 !important;
+}
+
+.dropdown-menu {
+    border-radius: 10px;
+    padding: 20px;
+    width: 236px
+}
+
+.dropdown li {
+    padding: 10px 0px;
+    border-bottom: 1px solid #e4e6ef;
+}
+
+.dropdown li a {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 200%;
+}
+
+.navbar-toggler {
+    background: #1DA737;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: white;
+}
+
+.navbar-toggler span + span {
+    width: 18px;
+    margin: 4px 0 0 4px;
+    width: 22px;
+}
+
+.navbar-toggler span + span + span {
+    width: 10px;
+    margin-left: 4px;
+}
+/* banner  */
+.banner h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 61px;
+    margin-bottom: 30px;
+}
+
+.banner h3{
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.banner button {
+    display: block !important;
+    margin: 45px auto;
+}
+
+/* about  */
+.about {
+    margin-top: 120px;
+}
+
+.about h1, .why-dayspring h1, .product h1, .clients h1, .message h1{
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 42px;
+    padding-bottom: 30px;
+}
+
+.about p, .why-dayspring p, .product p, .message p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+}
+
+.about img {
+    width: 313px;
+    border-radius: 25px;
+}
+
+/* why dayspring  */
+.why-dayspring {
+    background-image: url('img/Frame\ 45.png');
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.why-dayspring, .clients {
+    margin: 60px 0px;
+    padding: 69px 0px
+}
+
+.why-dayspring h1, footer p, .clients h1, .clients p{
+    color: white
+}
+
+.why-dayspring h3{
+    padding:10px 0px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.why-dayspring p {
+    color: white;
+    padding: 0px 0px 35px 0px
+}
+
+/* prduct  */
+.product {
+    margin-bottom: 120px;
+}
+
+.credit {
+    background-image: url('img/Group\ 29.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125px;
+    border-radius: 17px;
+    margin-bottom: 17px;
+}
+
+.credit p {
+    display: block !important;
+    text-align: center;
+    padding: 40px;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.credit span {
+    font-weight: 600;
+    color: #1DA737
+}
+
+.product button {
+    margin: 30px 0px;
+}
+
+.product i {
+    color: #F0C603;
+    padding-right: 14px;
+}
+
+.product ul {
+    border: 1px solid #e4e6ef;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.product li {
+    border-bottom: 1px solid #e4e6ef;
+    display: block;
+    width: 100%;
+    padding: .25rem 1rem;
+}
+
+.product li a {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 200%;
+    color: black;
+}
+
+/* client  */
+.clients {
+    background-image: url('img/Frame\ 45.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.reviews img{
+    padding: 30px
+}
+.reviews p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    font-style: italic;
+}
+
+/* message  */
+.message {
+    margin-bottom: 68px;
+}
+
+.message p{
+    margin-bottom: 30px;
+}
+
+.form {
+    margin-bottom: 30px;
+}
+
+.form p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.form input {
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #CCCFDF;
+    outline: none;
+}
+
+.form textarea {
+    height: 185px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #CCCFDF;
+    outline: none;
+}
+
+/* footer  */
+footer {
+    background-color: black;
+    padding: 66px 0px 78px 0px
+}
+
+footer img{
+    margin-bottom: 35px;
+}
+
+footer .left p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 30px;
+}
+
+footer form p {
+    margin-bottom: 10px !important;
+}
+
+footer input {
+    width: 295px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #CCCFDF;
+    outline: none;
+}
+
+footer button {
+    height: 50px;
+    margin: 0px 7px;
+    border-radius: 10px !important;
+}
+
+footer i {
+    color: #1DA737;
+    font-size: 18px;
+}
+
+.right .row {
+    margin-bottom: 20px;
+}
+
+.right h4 {
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.right p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+}
+
+hr {
+    border: 1px solid #9A9FBF;
+    margin-bottom: 60px;
+}
+
+.buttom a {
+    text-decoration: none;
+    padding-left: 10px;
+    Font-size: 15px;
+    Line-height: 100%;
+    color: white
+}
+
+.content i {
+    padding-left: 37px;
+}
+
+.content .up {
+    padding-left: 60px;
+    color: white
+}
+
+.right i {
+    padding-left: 0px;
+}
+
+footer input{
+    color: white;
+    background-color: black;
+}
+
+footer input ::-webkit-input-placeholder{
+    color: white
+}
+
+.social-media span {
+    float: right
+}
+
+/* media queries */
+@media (min-width: 768px) and (max-width:989px){
+    /* navbar  */
+    .navbar-brand img {
+        width: 75px;
+    }
+}
+
+@media (min-width: 386px) and (max-width: 768px) {
+    .contact .social-media i {
+        padding-top: 35px;
+    }
+
+    /* banner  */
+    .banner h1 {
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+    /* contact  */
+    .social-media {
+        text-align: left;
+    }
+
+    .social-media i {
+        padding: 18px 21.38px 0px 0px;
+    }
+
+    /* navbar  */
+    .navbar-brand img {
+        width: 65px;
+    }
+
+    /* about  */
+    .about{ 
+        margin-top: 80px;
+    }
+
+    .banner button {
+        margin: 25px auto;
+    }
+
+    .about img{
+        margin-top: 30px
+    }
+
+    /* product  */
+    .product {
+        margin-bottom: 40px;
+    }
+
+    /* message  */
+    .message {
+        margin-bottom: 50px;
+    }
+
+    .form {
+        margin: 20px 0px
+    }
+
+    .form > div {
+        margin-bottom: 5px;
+    }
+
+    /* footer  */
+    footer img {
+        width: 100px
+    }
+
+    footer input {
+        margin-bottom: 20px;
+    }
+    footer .right {
+        margin-top: 30px;
+    }
+
+    .right .row {
+        margin-bottom: 0px;
+    }
+
+    hr {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 385px) {
+    .contact .social-media i {
+        padding-top: 35px;
+    }
+
+    /* banner  */
+    .banner h1 {
+        font-size: 27px;
+        line-height: 34px;
+    }
+
+    /* contact  */
+    .social-media {
+        text-align: left;
+    }
+
+    .social-media i {
+        padding: 18px 21.38px 0px 0px;
+    }
+
+    /* navbar  */
+    .navbar-brand img {
+        width: 57px;
+    }
+
+    /* about  */
+    .about{ 
+        margin-top: 80px;
+    }
+
+    .banner button {
+        margin: 25px auto;
+    }
+
+    .about img{
+        margin-top: 30px
+    }
+
+    /* product  */
+    .product {
+        margin-bottom: 40px;
+    }
+
+    .credit p {
+        padding: 20px
+    }
+
+    /* message  */
+    .message {
+        margin-bottom: 50px;
+    }
+
+    .form {
+        margin: 20px 0px
+    }
+
+    .form > div {
+        margin-bottom: 20px;
+    }
+
+    /* footer  */
+    footer img {
+        width: 85px
+    }
+
+    footer input {
+        margin-bottom: 20px;
+    }
+    footer .right {
+        margin-top: 30px;
+    }
+
+    .right .row {
+        margin-bottom: 0px;
+    }
+
+    hr {
+        margin-bottom: 20px;
+    }
+}

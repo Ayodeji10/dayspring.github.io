@@ -1,0 +1,509 @@
+::-webkit-input-placeholder {
+    color: #e4e6ef
+}
+
+.container, .content{
+    max-width: 1057px;
+}
+
+.container1 {
+    background-image: url('../img/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.content {
+    margin: 0px auto;
+}
+
+a, h1, h2, h3, h4, h5, h6, p, span, textarea, li, button {
+    font-family: 'Inter', sans-serif;
+}
+
+li .active {
+    color: #1DA737 !important;
+}
+
+/* body  */
+.body button, .product button, .message button, footer button {
+    background-color:#1DA737 !important;
+    border: 0px !important;
+    padding: 18px 36px;
+    border-radius: 10px;
+}
+
+.body button:hover {
+    background-color: #1DA737 !important;
+}
+
+/* contact  */
+.contact {
+    padding: 11px 0px
+}
+
+.contact span {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.contact i {
+    color: #1DA737;
+    font-size: 10.25px;
+}
+
+.contact .social-media i {
+    float: right;
+    padding-top: 10px;
+}
+
+.address span {
+    padding-right: 17.5px;
+}
+
+.address i{
+    padding-right: 10.25px;
+}
+
+.social-media {
+    text-align: right;
+}
+
+.social-media i {
+    padding-left: 21.38px;
+}
+
+/* navigation  */
+nav {
+    padding: 51px 0px !important
+}
+
+.sub-nav {
+    padding: 0px !important;
+}
+
+nav .container-fluid {
+    padding: 0px !important
+}
+
+.navbar-brand img {
+    width: 100px
+}
+
+.navbar h1 a {
+    font-style: Bold !important;
+    font-size: 35px !important;
+    line-height: 42px !important;
+}
+
+.navbar-nav a {
+    margin-left: 50px;
+}
+
+.nav-item a, nav a {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: black !important;
+}
+
+nav .active {
+    color: #1DA737 !important;
+}
+
+.dropdown-menu {
+    border-radius: 10px;
+    padding: 20px;
+    width: 236px
+}
+
+.dropdown li {
+    padding: 10px 0px;
+    border-bottom: 1px solid #e4e6ef;
+}
+
+.dropdown li a {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 200%;
+    margin: 0px
+}
+
+.navbar-toggler {
+    background: #1DA737;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: white;
+}
+
+.navbar-toggler span + span {
+    width: 18px;
+    margin: 4px 0 0 4px;
+    width: 22px;
+}
+
+.navbar-toggler span + span + span {
+    width: 10px;
+    margin-left: 4px;
+}
+
+/* subnav  */
+/* subnav  */
+.subnav {
+    width: 100%
+}
+
+.subnav h1 {
+    position:absolute;
+    float: left;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 42px
+}
+
+.subnav ul {
+    width: auto;
+    float: right;
+    margin-left: 50px;
+}
+
+.subnav li {
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+.subnav a {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: black !important;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.subnav .active {
+    color: #1DA737 !important
+}
+
+/* message  */
+.message {
+    margin-bottom: 68px;
+    padding-top: 80px;
+}
+
+.message p{
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+}
+
+.form {
+    margin-bottom: 30px;
+}
+
+.form p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.form input {
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #CCCFDF;
+    outline: none;
+}
+
+.form textarea {
+    height: 185px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #CCCFDF;
+    outline: none;
+}
+
+/* footer  */
+footer {
+    background-color: black;
+    padding: 66px 0px 78px 0px
+}
+
+footer img{
+    margin-bottom: 35px;
+}
+
+footer .left p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 30px;
+}
+
+footer form p {
+    margin-bottom: 10px !important;
+}
+
+footer input {
+    width: 295px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #CCCFDF;
+    outline: none;
+}
+
+footer button {
+    height: 50px;
+    margin: 0px 7px;
+    border-radius: 10px !important;
+}
+
+footer i {
+    color: #1DA737;
+    font-size: 18px;
+}
+
+.right .row {
+    margin-bottom: 20px;
+}
+
+.right h4 {
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.right p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+}
+
+hr {
+    border: 1px solid #9A9FBF;
+    margin-bottom: 60px;
+}
+
+.buttom a {
+    text-decoration: none;
+    padding-left: 16px;
+    Font-size: 15px;
+    Line-height: 100%;
+    color: white
+}
+
+.content i {
+    padding-left: 37px;
+}
+
+.content .up {
+    padding-left: 60px;
+    color: white
+}
+
+.right i {
+    padding-left: 0px;
+}
+
+footer input{
+    color: white;
+    background-color: black;
+}
+
+footer input ::-webkit-input-placeholder{
+    color: white
+}
+
+footer p{
+    color: white
+}
+
+.social-media span {
+    float: right
+}
+
+/* media queries */
+@media (min-width: 768px) and (max-width:989px){
+    /* navbar  */
+    .navbar-brand img {
+        width: 75px;
+    }
+}
+
+@media (min-width: 386px) and (max-width: 768px) {
+    .contact .social-media i {
+        padding-top: 35px;
+    }
+    
+    /* contact  */
+    .social-media {
+        text-align: left;
+    }
+
+    .social-media i {
+        padding: 18px 21.38px 0px 0px;
+    }
+
+    /* navbar  */
+    .navbar-brand img {
+        width: 65px;
+    }
+
+    /* subnav  */
+    .subnav h1 {
+        font-size: 30px;
+    }
+
+    .subnav li {
+        display: inline-block;
+        padding: 10px 9px;
+    }
+
+    /* about  */
+    .about{ 
+        margin-top: 80px;
+    }
+
+    .banner button {
+        margin: 25px auto;
+    }
+
+    .about img{
+        margin-top: 30px
+    }
+
+    /* product  */
+    .product {
+        margin-bottom: 40px;
+    }
+
+    /* message  */
+    .message {
+        margin-bottom: 50px;
+    }
+
+    .form {
+        margin: 20px 0px
+    }
+
+    .form > div {
+        margin-bottom: 5px;
+    }
+
+    /* footer  */
+    footer input {
+        margin-bottom: 20px;
+    }
+    footer .right {
+        margin-top: 30px;
+    }
+
+    .right .row {
+        margin-bottom: 0px;
+    }
+
+    hr {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 385px) {
+    .contact .social-media i {
+        padding-top: 35px;
+    }
+
+    .navbar h1 a {
+        font-size: 29px !important;
+    }
+
+    /* contact  */
+    .social-media {
+        text-align: left;
+    }
+
+    .social-media i {
+        padding: 18px 21.38px 0px 0px;
+    }
+
+    /* navbar  */
+    .navbar-brand img {
+        width: 57px;
+    }
+
+    /* subnav  */
+    .subnav h1 {
+        font-size: 30px;
+    }
+
+    .subnav li {
+        display: inline-block;
+        padding: 10px 0px;
+    }
+
+    /* about  */
+    .about{ 
+        margin-top: 80px;
+    }
+
+    .banner button {
+        margin: 25px auto;
+    }
+
+    .about img{
+        margin-top: 30px
+    }
+
+    /* product  */
+    .product {
+        margin-bottom: 40px;
+    }
+
+    .credit p {
+        padding: 20px
+    }
+
+    /* message  */
+    .message {
+        margin-bottom: 50px;
+    }
+
+    .form {
+        margin: 20px 0px
+    }
+
+    .form > div {
+        margin-bottom: 20px;
+    }
+
+    /* footer  */
+    footer input {
+        margin-bottom: 20px;
+    }
+    footer .right {
+        margin-top: 30px;
+    }
+
+    .right .row {
+        margin-bottom: 0px;
+    }
+
+    hr {
+        margin-bottom: 20px;
+    }
+}
